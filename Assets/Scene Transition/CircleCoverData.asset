@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18f237b45cfff4842a4d8458abeb90d3, type: 3}
+  m_Name: CircleCoverData
+  m_EditorClassIdentifier: 
+  cover: {fileID: 8193588248794227783, guid: 6202b70422378414881ac3dad664d2ab, type: 3}
+  refStart: {fileID: 7332793165646855154, guid: d37d224e6297d4e498476f4409092880,
+    type: 3}
+  refEnd: {fileID: 302096352499988700, guid: fe0c5a6d8baa97c4393348cc59e4c0f9, type: 3}
+  twnProperty: 2
+  twnTime: 0.5
+  leanTweenType: 13

@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1381321588
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 44a2b8c098892cc3545ddefbd47c008e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9e6ad29cbd2df8fbe1a15315db0e51ab
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Delight/Extensions/Examples/Assets/Bundle2/Frame4.psd
+- Assets/Delight/Extensions/Examples/Assets/Bundle2/Frame3.psd
+- Assets/Delight/Extensions/Examples/Assets/Bundle2/BigSprite.psd
+Dependencies: []
