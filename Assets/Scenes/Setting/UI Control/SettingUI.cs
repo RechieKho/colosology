@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using General.Data.Scene;
 using General.Operation.Scene;
-using Game.Data;
+using Game.Core;
 
 namespace Scene.UI
 {
@@ -28,22 +28,26 @@ namespace Scene.UI
         public void ToMenu() //  Back button
         {
             Setting.SaveData();
+            QualitySettings.SetQualityLevel(Mathf.RoundToInt(Setting.Detail * 6), false);
             SceneDirector.LoadScene("Menu", sceneTransition);
         }
 
         public void SetMainVolume() // Main Sound
         {
             Setting.MainVolume = main.value;
+            Audio.UpdateMain();
         }
 
         public void SetEffectVolume() // Effect Sound
         {
             Setting.EffectVolume = effect.value;
+            Audio.UpdateEffect();
         }
 
         public void SetBgmVolume() // BGM Sound
         {
             Setting.BgmVolume = bgm.value;
+            Audio.UpdateBGM();
         }
 
         public void SetDetail()

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using BayatGames.SaveGameFree;
 
-namespace Game.Data
+namespace Game.Core
 {
     public static class Setting
     {

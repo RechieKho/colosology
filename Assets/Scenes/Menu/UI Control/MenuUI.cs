@@ -11,6 +11,7 @@ namespace Scene.UI
         public SceneTransData sceneTransition;
         public void ToPlay() // Play Button
         {
+            Debug.Log(QualitySettings.GetQualityLevel());
             Debug.Log("Play");
         }
 
@@ -21,6 +22,7 @@ namespace Scene.UI
 
         public void ToExit() // Exit Button
         {
+            Application.Quit();
             Debug.Log("Exit");
         }
     }

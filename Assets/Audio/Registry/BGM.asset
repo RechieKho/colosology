@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60383c07837c8354ea09f238782341cb, type: 3}
+  m_Name: BGM
+  m_EditorClassIdentifier: 
+  mixerGroup: {fileID: 8782928960136177729, guid: a1b3fa9c688f08c4dafa09cde0917bfe,
+    type: 2}
+  minorAudios:
+  - name: mainBGM
+    audio: {fileID: 8300000, guid: d2292beb78bae344c9c52d0ad9202195, type: 3}
+    playOnAwake: 1
+    loop: 1
+    volume: 1
+    pitch: 1

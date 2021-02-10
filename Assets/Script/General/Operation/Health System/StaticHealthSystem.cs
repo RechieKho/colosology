@@ -16,7 +16,7 @@ namespace General.Operation.HealthSystem
         public HealthData healthData;
         public StaticHealth health;
         #endregion
-
+        
         #region Method
 
         private void Awake()
