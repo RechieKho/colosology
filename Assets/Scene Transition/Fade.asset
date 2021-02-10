@@ -17,5 +17,5 @@ MonoBehaviour:
     type: 3}
   refEnd: {fileID: 2259363562071091351, guid: 2546d49a21bc865429f3920762ae78e1, type: 3}
   twnProperty: 3
-  twnTime: 2
+  twnTime: 0.5
   leanTweenType: 7

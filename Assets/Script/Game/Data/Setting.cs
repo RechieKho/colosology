@@ -17,11 +17,11 @@ namespace Game.Data
         // static methods
         public static void LoadData() // load data from saved file
         {
-            _mainVolume = SaveGame.Load<float>("_mainVolume");
-            _effectVolume = SaveGame.Load<float>("_effectVolume");
-            _bgmVolume = SaveGame.Load<float>("_bgmVolume");
+            _mainVolume = SaveGame.Load<float>("_mainVolume", 1);
+            _effectVolume = SaveGame.Load<float>("_effectVolume", 1);
+            _bgmVolume = SaveGame.Load<float>("_bgmVolume", 1);
 
-            _detail = SaveGame.Load<float>("_detail");
+            _detail = SaveGame.Load<float>("_detail", 1);
         }
 
         public static void SaveData() // save data to saved file

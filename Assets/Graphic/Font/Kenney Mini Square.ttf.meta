@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 800e9a7ec655fab42af9af363f45e953
+guid: c0f0a7648bbc21c45a2a22547b08126b
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,9 +8,9 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Press Start
+  fontName: Kenney Mini Square
   fontNames:
-  - Press Start
+  - Kenney Mini Square
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

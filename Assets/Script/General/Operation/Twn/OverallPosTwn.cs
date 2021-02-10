@@ -26,7 +26,7 @@ namespace General.Operation.Twn
             _isCurrentTwnAvail = true;
             try
             {
-                _currentTwn = LeanTween.move(twnData.target, twnData.GetValue(__key), twnData.time).setIgnoreTimeScale(twnData.ignoreTimeScale).setOnComplete(() => { twnData.callBack(); }).id;
+                _currentTwn = LeanTween.move(twnData.target, twnData.GetValue(__key), twnData.time).setEase(twnData.tweenType).setIgnoreTimeScale(twnData.ignoreTimeScale).setOnComplete(() => { twnData.callBack?.Invoke(); }).id;
             } 
             catch(Exception e)
             {

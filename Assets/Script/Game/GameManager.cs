@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using BayatGames.SaveGameFree;
 
 namespace Game
 {
@@ -38,7 +38,7 @@ namespace Game
         // singleton
         private static void InitOnce()
         {
-            if(_singleton == null)
+            if (_singleton == null)
             {
                 _singleton = new GameObject("GameManager").AddComponent<GameManager>();
                 DontDestroyOnLoad(_singleton);
